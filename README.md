@@ -1,6 +1,7 @@
 # Efficient_LocationRobust_TDOALoc_MPR
 A computationally efficient and location robust estimator for TDOA localization in MPR, which is designed for IoT device. The solution performs similar to the GTRS solution [1] but requires less computational load.
-[1] Y. Sun, K. C. Ho, and Q. Wan, “Solution and analysis of TDOA localization of a near or distant source in closed form,” *IEEE Trans. Signal Process.*, vol. 67, no. 2, pp. 320-335, Jan. 2019.
+
+>[1] Y. Sun, K. C. Ho, and Q. Wan, “Solution and analysis of TDOA localization of a near or distant source in closed form,” *IEEE Trans. Signal Process.*, vol. 67, no. 2, pp. 320-335, Jan. 2019.
 
 **If you use any of the following codes in your research, please cite the paper as a reference in your publication. Thank you!**
 
