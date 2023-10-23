@@ -1,21 +1,17 @@
 # Efficient_LocationRobust_TDOALoc_MPR
-A computationally efficient and location robust estimator for TDOA localization in MPR, which is designed for IoT device. The solution performs similar to the GTRS solution [1] but requires less computational load.
+The signal emitted by an acoustic source may be propagating in an environment in which the speed is not known, such as in solid or ocean. Localization of such a source through observing the signal by a number of sensors requires joint estimation with the propagation speed.  This work applies the nullspace projection approach to the pseudo-linear formulation for the localization problem to obtain a closed-form solution, which is refined by error-compensation to reach the final estimation.  In contrast to the methods from the literature that are either suboptimal or computationally demanding, the proposed method is both statistically and computationally efficient, and is shown analytically to achieve the Cramer-Rao Lower Bound accuracy.
 
->[1] Y. Sun, K. C. Ho, and Q. Wan, “Solution and analysis of TDOA localization of a near or distant source in closed form,” *IEEE Trans. Signal Process.*, vol. 67, no. 2, pp. 320-335, Jan. 2019.
+>[1] Y. Sun, K. C. Ho, Y. Yang, and L. Chen, "An asymptotically optimal estimator for source location and propagation speed by TDOA," *IEEE Signal Process. Lett.*, vol. 30, pp. 1037-1041, Aug. 2023.
 
 **If you use any of the following codes in your research, please cite the paper as a reference in your publication. Thank you!**
 
-## Computationally Efficient and Location Robust Estimator for IoT Device (4/12/2022)
+## An asymptotically optimal estimator for source location and propagation speed by TDOA (10/23/2023)
 
 ### <u>Reference</u>
->Y. Sun et al., "Computationally Attractive and Location Robust Estimator for IoT Device Positioning," IEEE Internet of Things Journal, vol. 9, no. 13, pp. 10891-10907, Jul. 2022, doi: 10.1109/jiot.2021.3127690.
+>Y. Sun, K. C. Ho, Y. Yang, and L. Chen, "An asymptotically optimal estimator for source location and propagation speed by TDOA," *IEEE Signal Process. Lett.*, vol. 30, pp. 1037-1041, Aug. 2023.
 
 ### Code List:
-- SCO Closed-Form Solution: TDOA_SCO_MPR
-- SUM Closed-Form Solution: TDOA_SUM_MPR
-- GTRS Closed-Form Solution: TDOA_GTRS_MPR
-- CRLB: ConsCRLB
-- Example: Fig2to9
-- Example: Fig10
-- Example: Fig20to23
-- Example: Fig24to27
+- Closed-Form Solution: TDOALoc_Proj_UPS
+- Cramer Rao Bound: CRLB_TDOA_UPS
+- Analytical Covariance: COV_Proj_UPS
+- Example: main
